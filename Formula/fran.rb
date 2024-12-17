@@ -1,4 +1,4 @@
-class Fran < Formula
+class FranCli < Formula
   desc "a cli for simple tasks in your localhost, franferri.io apis wrapper"
   homepage "https://github.com/franferri/homebrew-cli"
   
