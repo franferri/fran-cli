@@ -4,6 +4,7 @@ class Fran < Formula
   
   on_macos do
     if Hardware::CPU.arm? # macOS ARM64 (Apple Silicon)
+      version "1734450881"
       url "https://github.com/franferri/homebrew-cli/releases/download/latest/fran-macos-arm64"
       sha256 "0042f6492c1aa0b47d27aabd9ce9ee6c46a79ac815163de1f5e3d7537f175023"
     elsif Hardware::CPU.intel?
