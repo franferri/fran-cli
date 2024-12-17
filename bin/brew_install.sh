@@ -1,3 +1,3 @@
 brew untap franferr/cli
 brew tap franferri/cli
-brew install francli
+brew install fran
